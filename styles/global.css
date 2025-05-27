@@ -24,8 +24,8 @@
     --title-md: 700 24px/120% var(--font-family-Asap); 
     --title-sm: 700 56px/120% var(--font-family-Asap); 
 
-    --font-family-Incosolata:'Incosolata', sans-serif ;
-    --subtitle: 400 20px/120% var(--font-family-Incosolata);
+    --font-family-Inconsolata:'Inconsolata', sans-serif ;
+    --subtitle-Inconsolata-md: 400 20px/120% var(--font-family-Inconsolata);
 
     --font-family-MavenPro:'Maven Pro', sans-serif ;
     --text-md-Maven: 400 16px/140% var(--font-family-MavenPro);

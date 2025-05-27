@@ -35,3 +35,7 @@
 .red-bg {
     background: var(--red);;
 }
+
+.subtitle-inco {
+    font: var(--subtitle-Inconsolata-md);
+}
