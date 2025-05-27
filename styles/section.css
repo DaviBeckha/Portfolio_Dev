@@ -1,4 +1,4 @@
-section {
+#intro {
   display: flex;
 flex-direction: column;
 align-items: center;
@@ -12,21 +12,7 @@ left: calc(50% - 1040px/2);
 top: 120px;
 background: url(../assets/background/Background_Intro.png) no-repeat center center/cover;
 
-  #arrow{
-    margin-top: 94px;
-  }
-}
-
-#avatar {
-  margin-bottom: 56px;
-   img {
-    border-radius: 60px;
-    border: 4px solid var(--red);
-   }
-}
-
-#intro {
-  text-align: center;
+text-align: center;
   margin-inline: auto;
   padding-inline: 1.4rem;
   min-height: 100vh;
@@ -42,6 +28,10 @@ background: url(../assets/background/Background_Intro.png) no-repeat center cent
   }
   h1 {
     margin-bottom:20px ;
+  }
+
+  #arrow{
+    margin-top: 94px;
   }
 
   .tags{
@@ -75,5 +65,14 @@ background: url(../assets/background/Background_Intro.png) no-repeat center cent
   }
 
   }
-} 
+}
+
+#avatar {
+  margin-bottom: 56px;
+   img {
+    border-radius: 60px;
+    border: 4px solid var(--red);
+   }
+}
+
 
