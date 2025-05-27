@@ -11,6 +11,10 @@ height: 447px;
 left: calc(50% - 1040px/2);
 top: 120px;
 background: url(../assets/background/Background_Intro.png) no-repeat center center/cover;
+
+  #arrow{
+    margin-top: 94px;
+  }
 }
 
 #avatar {
@@ -47,8 +51,9 @@ background: url(../assets/background/Background_Intro.png) no-repeat center cent
 
     
     .tag {
+      font: var(--text-sm-Maven);
       margin-top: 94px;
-      width: 114px;
+      width: 138px;
       height: 40px;
       background: var(--gray-300);
       border-radius: 999px;
@@ -58,9 +63,14 @@ background: url(../assets/background/Background_Intro.png) no-repeat center cent
       display: flex;
       flex-direction: row;
       justify-content: center;
-      padding: 8px 16px ;
+      padding: 8px 16px 8px 16px ;
       align-items: center;
       gap: 8px;
+      
+      img {
+        width: 20px;
+        height: 20px;
+      }
     
   }
 
