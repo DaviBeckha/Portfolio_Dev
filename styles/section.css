@@ -2,12 +2,12 @@
   display: flex;
 flex-direction: column;
 align-items: center;
-padding: 0px;
+padding: 120px 163px 183px 163px;
 gap: 80px;
 
-position: absolute;
-width: 1040px;
-height: 447px;
+
+width: 1366px;
+height: 750px;
 left: calc(50% - 1040px/2);
 top: 120px;
 background: url(../assets/background/Background_Intro.png) no-repeat center center/cover;
@@ -18,10 +18,7 @@ text-align: center;
   min-height: 100vh;
   
 
-  img {
-    
-  }
-
+  
   div {
     width: 680px;
     
@@ -32,6 +29,7 @@ text-align: center;
 
   #arrow{
     margin-top: 94px;
+    
   }
 
   .tags{
@@ -68,15 +66,205 @@ text-align: center;
 }
 
 #avatar {
+  width: 112px;
+  height: 112px;
   margin-bottom: 56px;
-   img {
+   img:first-child {
     border-radius: 60px;
     border: 4px solid var(--red);
    }
+   img:last-child {
+    position: absolute;
+    width: 42px;
+    height: 42px; 
+    top: 180px;
+    left: 700px;
+   }
 }
+
 #middle {
+  
   width: 1366px;
   height: 917px;  
+  grid-area: featured;
+  img {
+    height: 100%;
+    object-fit: cover;
+  }
+  header { 
+  margin-bottom: 56px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  }
+  
+
+    .cards {
+    max-width: 104rem;
+    height: 584px;
+    margin-inline: auto;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: flex-start;
+   align-content: center;
+   padding: 0px;
+   gap: 24px;
+    
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      width: 330px;
+      height: 300px;
+      padding: 1.2rem;
+      background: var(--gray-300);
+      border-radius: 12px;
+      text-align: left;
+
+      img {
+        width: 306px;
+        height: 156px;
+        border-radius: 0.8rem;
+        object-fit: cover;
+        margin-bottom: 2rem;
+      }
+
+      h3 {
+        font: var(--title-sm);
+        color: var(--gray-600);
+        margin-bottom: 0.8rem;
+      }
+      p {
+        font: var(--text-sm-Maven);
+        color: var(--gray-500);
+      }
+    }
+  }
+}
+#services {
+width: 1366px;
+height: 480px;
+background: var(--gray-100);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 88px 120px 120px 120px;
+gap: 56px;
+
+  header {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 355px;
+height: 61px;
+
+  }
+
+  .services-div{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  padding: 0px;
+  gap: 24px;
+
+  width: 888px;
+  height: 155px;
+
+  .box-services {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+
+    width: 280px;
+    height: 155px;
+    border: 4px solid #4244495f;
+    border-radius: 12px;
+  }
+
+  }
+}
+#mywork {
+  background: url(../assets/background/Background_Contacts.png) no-repeat center center/cover;
+  width: 1366px;
+  height: 787px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 128px 120px 200px 120px;
+  gap: 48px;
+}
+
+.my-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  gap: 8px;
+  width: 420px;
+  height: auto;
+  text-align: center;
+}
+
+.my-contact span,
+.my-contact h3,
+.my-contact p {
+  align-self: stretch;
+  text-align: center;
+}
+
+.boxD-contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.box-contacts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  padding: 20px;
+  width: 400px;
+  height: 68px;
+  transition: 0.3s ease;
+}
+
+.box-contacts img:first-child {
+  width: 24px;
+  height: 24px;
+}
+
+.box-contacts a {
+  flex: 1;
+  margin-left: 12px;
+  font: var(--text-md-Maven);
+  color: var(--gray-500);
+  text-decoration: none;
   
 }
 
+.box-contacts img:last-child {
+  width: 16px;
+  height: 16px;
+}

@@ -11,6 +11,11 @@
     font: var(--title-md);
 }
 
+.text-md-h2 {
+    font: var(--title-md);
+    color: var(--gray-600);
+}
+
 .text-md-maven {
     font: var(--text-md-Maven);
 }
@@ -24,6 +29,7 @@
     color: var(--gray-400);
 }
 
+
 .text-sm-Maven-tags {
     font: var(--text-sm-Maven);
     color: var(--gray-500);
@@ -36,6 +42,17 @@
     background: var(--red);;
 }
 
+.gray-600 {
+    color: var(--gray-600);
+}
+
+.purple {
+    color: var(--purple);
+}
+
 .subtitle-inco {
     font: var(--subtitle-Inconsolata-md);
 }
+
+
+
